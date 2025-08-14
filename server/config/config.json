@@ -1,0 +1,35 @@
+{
+  "development": {
+    "username": "postgres",
+    "password": "sahabatchineseindonesia",
+    "database": "postgres",
+    "host": "db.hfxqwffrkrobwnotjvzf.supabase.co",
+    "port": 5432,
+    "dialect": "postgres",
+    "dialectOptions": {
+      "ssl": { "rejectUnauthorized": false }
+    }
+  },
+  "test": {
+    "username": "postgres",
+    "password": "sahabatchineseindonesia",
+    "database": "postgres",
+    "host": "db.hfxqwffrkrobwnotjvzf.supabase.co",
+    "port": 5432,
+    "dialect": "postgres",
+    "dialectOptions": {
+      "ssl": { "rejectUnauthorized": false }
+    }
+  },
+  "production": {
+    "username": "postgres",
+    "password": "sahabatchineseindonesia",
+    "database": "postgres",
+    "host": "db.hfxqwffrkrobwnotjvzf.supabase.co",
+    "port": 5432,
+    "dialect": "postgres",
+    "dialectOptions": {
+      "ssl": { "rejectUnauthorized": false }
+    }
+  }
+}

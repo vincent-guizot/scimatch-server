@@ -1,0 +1,8 @@
+# Users table
+npx sequelize-cli model:generate --name User --attributes id:UUID,username:string,password:string,images:JSON,role:enum,location:string,fullname:string,age:integer
+
+# Likes table
+npx sequelize-cli model:generate --name Like --attributes id:UUID,user_id:UUID,liked_user_id:UUID
+
+# Matches table
+npx sequelize-cli model:generate --name Match --attributes id:UUID,user1_id:UUID,user2_id:UUID
