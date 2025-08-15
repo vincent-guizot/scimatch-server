@@ -13,6 +13,7 @@ module.exports = {
         require: true,
         rejectUnauthorized: false,
       },
+      family: 4,
     },
   },
   test: {
@@ -27,6 +28,7 @@ module.exports = {
         require: true,
         rejectUnauthorized: false,
       },
+      family: 4,
     },
   },
   production: {
@@ -41,6 +43,7 @@ module.exports = {
         require: true,
         rejectUnauthorized: false,
       },
+      family: 4,
     },
   },
 };
