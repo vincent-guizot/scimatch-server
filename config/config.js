@@ -8,8 +8,8 @@ const common = {
       require: true,
       rejectUnauthorized: false,
     },
+    family: 4, // <-- put it here, outside ssl, inside dialectOptions
   },
-  family: 4, // <-- force IPv4 here
 };
 
 module.exports = {
