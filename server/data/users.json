@@ -1,0 +1,137 @@
+[
+    {
+        "username": "vincentg",
+        "password": "vincentg123",
+        "fullname": "Vincent Guizot",
+        "role": "Developer",
+        "image": "https://via.placeholder.com/100/808080",
+        "gender": "Male",
+        "location": "Jakarta"
+    },
+    {
+        "username": "rinak",
+        "password": "rinak123",
+        "fullname": "Rina Kartika",
+        "role": "Admin",
+        "image": "https://via.placeholder.com/100/808080",
+        "gender": "Female",
+        "location": "Surabaya"
+    },
+    {
+        "username": "budi",
+        "password": "budi123",
+        "fullname": "Budi Santoso",
+        "role": "Admin",
+        "image": "https://via.placeholder.com/100/808080",
+        "gender": "Male",
+        "location": "Bandung"
+    },
+    {
+        "username": "siti",
+        "password": "siti123",
+        "fullname": "Siti Aminah",
+        "role": "Admin",
+        "image": "https://via.placeholder.com/100/808080",
+        "gender": "Female",
+        "location": "Medan"
+    },
+    {
+        "username": "andi",
+        "password": "andi123",
+        "fullname": "Andi Pratama",
+        "role": "Member",
+        "image": "https://via.placeholder.com/100/808080",
+        "gender": "Male",
+        "location": "Semarang"
+    },
+    {
+        "username": "maya",
+        "password": "maya123",
+        "fullname": "Maya Putri",
+        "role": "Member",
+        "image": "https://via.placeholder.com/100/808080",
+        "gender": "Female",
+        "location": "Makassar"
+    },
+    {
+        "username": "rudi",
+        "password": "rudi123",
+        "fullname": "Rudi Hartono",
+        "role": "Member",
+        "image": "https://via.placeholder.com/100/808080",
+        "gender": "Male",
+        "location": "Denpasar"
+    },
+    {
+        "username": "agus",
+        "password": "agus123",
+        "fullname": "Agus Saputra",
+        "role": "Member",
+        "image": "https://via.placeholder.com/100/808080",
+        "gender": "Male",
+        "location": "Yogyakarta"
+    },
+    {
+        "username": "tono",
+        "password": "tono123",
+        "fullname": "Tono Wibowo",
+        "role": "Member",
+        "image": "https://via.placeholder.com/100/808080",
+        "gender": "Male",
+        "location": "Palembang"
+    },
+    {
+        "username": "lina",
+        "password": "lina123",
+        "fullname": "Lina Susanti",
+        "role": "Member",
+        "image": "https://via.placeholder.com/100/808080",
+        "gender": "Female",
+        "location": "Balikpapan"
+    },
+    {
+        "username": "eka",
+        "password": "eka123",
+        "fullname": "Eka Prasetyo",
+        "role": "Member",
+        "image": "https://via.placeholder.com/100/808080",
+        "gender": "Male",
+        "location": "Manado"
+    },
+    {
+        "username": "fajar",
+        "password": "fajar123",
+        "fullname": "Fajar Nugraha",
+        "role": "Member",
+        "image": "https://via.placeholder.com/100/808080",
+        "gender": "Male",
+        "location": "Padang"
+    },
+    {
+        "username": "putri",
+        "password": "putri123",
+        "fullname": "Putri Ayu",
+        "role": "Member",
+        "image": "https://via.placeholder.com/100/808080",
+        "gender": "Female",
+        "location": "Pontianak"
+    },
+    {
+        "username": "wawan",
+        "password": "wawan123",
+        "fullname": "Wawan Setiawan",
+        "role": "Member",
+        "image": "https://via.placeholder.com/100/808080",
+        "gender": "Male",
+        "location": "Banjarmasin"
+    },
+    {
+        "username": "dewi",
+        "password": "dewi123",
+        "fullname": "Dewi Anggraini",
+        "role": "Member",
+        "image": "https://via.placeholder.com/100/808080",
+        "gender": "Female",
+        "location": "Batam"
+    }
+]
