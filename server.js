@@ -1,12 +1,12 @@
-const express = require('express');
-const { sequelize } = require('./models');
-const routes = require('./routes');
+const express = require("express");
+const { sequelize } = require("./models");
+const routes = require("./routes");
 
 const app = express();
 app.use(express.json());
 
 // Use routes
-app.use('/api', routes);
+app.use("/api", routes);
 
 // Sequelize pool config
 sequelize.options.pool = {
@@ -16,5 +16,5 @@ sequelize.options.pool = {
   idle: 10000,
 };
 
-const PORT = 5000;
+const PORT = process.env.PORT || 5000;
 app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
