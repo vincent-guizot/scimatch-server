@@ -8,30 +8,30 @@ const common = {
       require: true,
       rejectUnauthorized: false,
     },
-    family: 4, // <-- put it here, outside ssl, inside dialectOptions
+    family: 4,
   },
 };
 
 module.exports = {
   development: {
-    username: process.env.DB_USER || "postgres",
-    password: process.env.DB_PASS || "sahabatchineseindonesia",
-    database: process.env.DB_NAME || "postgres",
-    host: process.env.DB_HOST || "db.hfxqwffrkrobwnotjvzf.supabase.co",
+    username: process.env.DB_USER,
+    password: process.env.DB_PASS,
+    database: process.env.DB_NAME,
+    host: process.env.DB_HOST,
     ...common,
   },
   test: {
-    username: process.env.DB_USER || "postgres",
-    password: process.env.DB_PASS || "sahabatchineseindonesia",
-    database: process.env.DB_NAME || "postgres",
-    host: process.env.DB_HOST || "db.hfxqwffrkrobwnotjvzf.supabase.co",
+    username: process.env.DB_USER,
+    password: process.env.DB_PASS,
+    database: process.env.DB_NAME,
+    host: process.env.DB_HOST,
     ...common,
   },
   production: {
-    username: process.env.DB_USER || "postgres",
-    password: process.env.DB_PASS || "sahabatchineseindonesia",
-    database: process.env.DB_NAME || "postgres",
-    host: process.env.DB_HOST || "db.hfxqwffrkrobwnotjvzf.supabase.co",
+    username: process.env.DB_USER,
+    password: process.env.DB_PASS,
+    database: process.env.DB_NAME,
+    host: process.env.DB_HOST,
     ...common,
   },
 };
