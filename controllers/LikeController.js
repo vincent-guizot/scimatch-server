@@ -4,9 +4,10 @@ const { Like } = require("../models");
 class LikeController {
   static async create(req, res) {
     try {
-      const userId = String(req.user.id); // ensure it's a string
+      const userId = String(req.userId); // ensure it's a string
       const likedUserIds = req.body.matches.map((id) => String(id)); // convert all to string
 
+      console.log(userId, likedUserIds);
       if (!likedUserIds || likedUserIds.length === 0) {
         return res.status(400).json({ message: "No matches provided" });
       }
