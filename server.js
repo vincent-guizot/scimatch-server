@@ -1,8 +1,17 @@
 const express = require("express");
+const cors = require("cors"); // <-- import cors
 const { sequelize } = require("./models");
 const routes = require("./routes");
 
 const app = express();
+
+// Enable CORS
+app.use(
+  cors({
+    origin: "*", // allow all origins, or specify your frontend URL
+  })
+);
+
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
