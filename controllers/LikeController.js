@@ -44,6 +44,16 @@ class LikeController {
       res.status(500).json({ error: err.message });
     }
   }
+
+  static async deleteAllLikes(req, res) {
+    try {
+      await Like.destroy({ where: {} });
+      res.json({ message: "All likes deleted" });
+    } catch (err) {
+      console.error("Error deleting likes:", err);
+      res.status(500).json({ message: "Server error" });
+    }
+  }
 }
 
 module.exports = LikeController;
