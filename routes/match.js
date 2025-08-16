@@ -4,5 +4,6 @@ const MatchController = require("../controllers/MatchController");
 
 router.get("/", MatchController.getAll);
 router.get("/generate", MatchController.generateMutualMatches);
+router.delete("/delete/all", MatchController.deleteAllMatches);
 
 module.exports = router;

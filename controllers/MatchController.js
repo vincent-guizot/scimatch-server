@@ -62,6 +62,15 @@ class MatchController {
       res.status(500).json({ error: err.message });
     }
   }
+  static async deleteAllMatches(req, res) {
+    try {
+      await Match.destroy({ where: {} });
+      res.json({ message: "All matches deleted" });
+    } catch (err) {
+      console.error("Error deleting matches:", err);
+      res.status(500).json({ message: "Server error" });
+    }
+  }
 }
 
 module.exports = MatchController;
