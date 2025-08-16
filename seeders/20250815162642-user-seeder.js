@@ -11,9 +11,9 @@ module.exports = {
       password: user.password,
       fullname: user.fullname,
       role: user.role,
-      image: user.image,
+      image: null,
       gender: user.gender,
-      location: user.location,
+      location: null,
       createdAt: new Date(),
       updatedAt: new Date(),
     }));

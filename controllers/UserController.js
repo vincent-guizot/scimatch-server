@@ -45,7 +45,13 @@ class UserController {
         return res.status(409).json({ message: "Username already exists" });
       }
       const id = uuidv4();
-      const newUser = await User.create({ username, id, ...rest });
+      const newUser = await User.create({
+        username,
+        id,
+        image: null,
+        location: null,
+        ...rest,
+      });
       res.status(201).json({
         message: "User created successfully",
         data: newUser,

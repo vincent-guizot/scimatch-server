@@ -6,6 +6,7 @@
     "start": "node server.js",
     "server": "nodemon server.js",
     "migrate": "sequelize db:migrate",
+    "seed": "sequelize db:seed:all",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
