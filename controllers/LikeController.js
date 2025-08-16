@@ -1,5 +1,5 @@
 // controllers/LikeController.js
-const { Like } = require("../models");
+const { Like, User } = require("../models");
 
 class LikeController {
   static async create(req, res) {
@@ -29,7 +29,15 @@ class LikeController {
 
   static async getAll(req, res) {
     try {
-      const likes = await Like.findAll();
+      const likes = await Like.findAll({
+        include: [
+          {
+            model: User,
+            as: "likedUser", // matches the alias in the model
+            attributes: ["id", "username", "fullname"],
+          },
+        ],
+      });
       res.status(200).json(likes);
     } catch (err) {
       console.error("LikeController.getAll error:", err);
