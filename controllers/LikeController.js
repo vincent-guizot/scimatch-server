@@ -4,24 +4,28 @@ const { Like } = require("../models");
 class LikeController {
   static async create(req, res) {
     try {
-      const userId = +req.user.id; // from middleware
-      const likedUserIds = req.body.matches; // matches array from frontend
+      const userId = String(req.user.id); // always string
+      const likedUserIds = req.body.matches;
 
-      if (!likedUserIds || likedUserIds.length === 0) {
+      if (
+        !likedUserIds ||
+        !Array.isArray(likedUserIds) ||
+        likedUserIds.length === 0
+      ) {
         return res.status(400).json({ message: "No matches provided" });
       }
 
-      // prepare bulk data
       const bulkData = likedUserIds.map((likedUserId) => ({
         UserId: userId,
-        LikedUserId: likedUserId,
+        LikedUserId: String(likedUserId), // ensure string
       }));
 
-      const likes = await Like.bulkCreate(bulkData);
+      const likes = await Like.bulkCreate(bulkData, { ignoreDuplicates: true });
       res
         .status(201)
         .json({ message: "Matches saved successfully", data: likes });
     } catch (err) {
+      console.error("LikeController.create error:", err);
       res.status(500).json({ message: "Server error", error: err.message });
     }
   }
@@ -31,6 +35,7 @@ class LikeController {
       const likes = await Like.findAll();
       res.status(200).json(likes);
     } catch (err) {
+      console.error("LikeController.getAll error:", err);
       res.status(500).json({ error: err.message });
     }
   }
