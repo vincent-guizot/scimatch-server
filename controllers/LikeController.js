@@ -4,20 +4,16 @@ const { Like } = require("../models");
 class LikeController {
   static async create(req, res) {
     try {
-      const userId = String(req.user.id); // always string
-      const likedUserIds = req.body.matches;
+      const userId = String(req.user.id); // ensure it's a string
+      const likedUserIds = req.body.matches.map((id) => String(id)); // convert all to string
 
-      if (
-        !likedUserIds ||
-        !Array.isArray(likedUserIds) ||
-        likedUserIds.length === 0
-      ) {
+      if (!likedUserIds || likedUserIds.length === 0) {
         return res.status(400).json({ message: "No matches provided" });
       }
 
       const bulkData = likedUserIds.map((likedUserId) => ({
         UserId: userId,
-        LikedUserId: String(likedUserId), // ensure string
+        LikedUserId: likedUserId,
       }));
 
       const likes = await Like.bulkCreate(bulkData, { ignoreDuplicates: true });
