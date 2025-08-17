@@ -1,530 +1,713 @@
 [
     {
         "username": "hendy",
-        "password": "hendy123",
+        "password": "cinta88",
         "fullname": "Hendy",
         "role": "Admin",
-        "image": "https://via.placeholder.com/100/808080",
-        "gender": "Male"
+        "image": "https://placehold.co/300/png",
+        "gender": "Male",
+        "location": "Jakarta"
     },
     {
         "username": "natalia",
-        "password": "natalia123",
+        "password": "cinta88",
         "fullname": "Natalia",
         "role": "Admin",
-        "image": "https://via.placeholder.com/100/808080",
-        "gender": "Female"
+        "image": "https://placehold.co/300/png",
+        "gender": "Female",
+        "location": "Jakarta"
     },
     {
         "username": "adi",
-        "password": "adi123",
+        "password": "3adi",
         "fullname": "Adi",
         "role": "Admin",
-        "image": "https://via.placeholder.com/100/808080",
-        "gender": "Male"
+        "image": "https://placehold.co/300/png",
+        "gender": "Male",
+        "location": "Jakarta"
     },
     {
         "username": "evelyn",
-        "password": "evelyn123",
+        "password": "4evelyn",
         "fullname": "Evelyn",
         "role": "Admin",
-        "image": "https://via.placeholder.com/100/808080",
-        "gender": "Female"
+        "image": "https://placehold.co/300/png",
+        "gender": "Female",
+        "location": "Jakarta"
     },
     {
         "username": "darwin",
-        "password": "darwin123",
+        "password": "5darwin",
         "fullname": "Darwin",
         "role": "Admin",
-        "image": "https://via.placeholder.com/100/808080",
-        "gender": "Male"
+        "image": "https://placehold.co/300/png",
+        "gender": "Male",
+        "location": "Jakarta"
     },
     {
         "username": "anastasia",
-        "password": "anastasia123",
+        "password": "6anastasia",
         "fullname": "Anastasia",
         "role": "Admin",
-        "image": "https://via.placeholder.com/100/808080",
-        "gender": "Female"
+        "image": "https://placehold.co/300/png",
+        "gender": "Female",
+        "location": "Jakarta"
     },
     {
         "username": "romy",
-        "password": "romy123",
+        "password": "7romy",
         "fullname": "Romy",
         "role": "Admin",
-        "image": "https://via.placeholder.com/100/808080",
-        "gender": "Male"
+        "image": "https://placehold.co/300/png",
+        "gender": "Male",
+        "location": "Jakarta"
     },
     {
         "username": "vivi",
-        "password": "vivi123",
+        "password": "8vivi",
         "fullname": "Vivi",
         "role": "Admin",
-        "image": "https://via.placeholder.com/100/808080",
-        "gender": "Female"
+        "image": "https://placehold.co/300/png",
+        "gender": "Female",
+        "location": "Jakarta"
     },
     {
         "username": "lius",
-        "password": "lius123",
+        "password": "9lius",
         "fullname": "Lius",
         "role": "Admin",
-        "image": "https://via.placeholder.com/100/808080",
-        "gender": "Male"
+        "image": "https://placehold.co/300/png",
+        "gender": "Male",
+        "location": "Jakarta"
     },
     {
         "username": "gabriel",
-        "password": "gabriel123",
+        "password": "10gabriel",
         "fullname": "Gabriel",
         "role": "Admin",
-        "image": "https://via.placeholder.com/100/808080",
-        "gender": "Male"
+        "image": "https://placehold.co/300/png",
+        "gender": "Male",
+        "location": "Jakarta"
     },
     {
         "username": "albert",
-        "password": "albert123",
+        "password": "11albert",
         "fullname": "Albert",
         "role": "Admin",
-        "image": "https://via.placeholder.com/100/808080",
-        "gender": "Male"
+        "image": "https://placehold.co/300/png",
+        "gender": "Male",
+        "location": "Jakarta"
+    },
+    {
+        "username": "ryan",
+        "password": "12ryan",
+        "fullname": "Ryan",
+        "role": "Admin",
+        "image": "https://placehold.co/300/png",
+        "gender": "Male",
+        "location": "Jakarta"
+    },
+    {
+        "username": "fany",
+        "password": "13fany",
+        "fullname": "Fany",
+        "role": "Admin",
+        "image": "https://placehold.co/300/png",
+        "gender": "Female",
+        "location": "Jakarta"
     },
     {
         "username": "yoan",
-        "password": "yoan123",
+        "password": "1yoan",
         "fullname": "Yoan",
         "role": "Member",
-        "image": "https://via.placeholder.com/100/808080",
-        "gender": "Female"
+        "image": "https://placehold.co/300/png",
+        "gender": "Female",
+        "location": "Jakarta"
     },
     {
         "username": "friskila",
-        "password": "friskila123",
+        "password": "2friskila",
         "fullname": "Friskila",
         "role": "Member",
-        "image": "https://via.placeholder.com/100/808080",
-        "gender": "Female"
+        "image": "https://placehold.co/300/png",
+        "gender": "Female",
+        "location": "Jakarta"
     },
     {
         "username": "ely",
-        "password": "ely123",
+        "password": "3ely",
         "fullname": "Ely",
         "role": "Member",
-        "image": "https://via.placeholder.com/100/808080",
-        "gender": "Female"
+        "image": "https://placehold.co/300/png",
+        "gender": "Female",
+        "location": "Jakarta"
     },
     {
         "username": "chiko",
-        "password": "chiko123",
+        "password": "4chiko",
         "fullname": "Chiko",
         "role": "Member",
-        "image": "https://via.placeholder.com/100/808080",
-        "gender": "Female"
+        "image": "https://placehold.co/300/png",
+        "gender": "Female",
+        "location": "Jakarta"
     },
     {
         "username": "qchuu",
-        "password": "qchuu123",
+        "password": "5qchuu",
         "fullname": "Qchuu",
         "role": "Member",
-        "image": "https://via.placeholder.com/100/808080",
-        "gender": "Female"
+        "image": "https://placehold.co/300/png",
+        "gender": "Female",
+        "location": "Jakarta"
     },
     {
         "username": "kumala",
-        "password": "kumala123",
+        "password": "6kumala",
         "fullname": "Kumala",
         "role": "Member",
-        "image": "https://via.placeholder.com/100/808080",
-        "gender": "Female"
+        "image": "https://placehold.co/300/png",
+        "gender": "Female",
+        "location": "Jakarta"
     },
     {
         "username": "mochi",
-        "password": "mochi123",
+        "password": "7mochi",
         "fullname": "Mochi",
         "role": "Member",
-        "image": "https://via.placeholder.com/100/808080",
-        "gender": "Female"
+        "image": "https://placehold.co/300/png",
+        "gender": "Female",
+        "location": "Jakarta"
     },
     {
         "username": "nora",
-        "password": "nora123",
+        "password": "8nora",
         "fullname": "Nora",
         "role": "Member",
-        "image": "https://via.placeholder.com/100/808080",
-        "gender": "Female"
+        "image": "https://placehold.co/300/png",
+        "gender": "Female",
+        "location": "Jakarta"
     },
     {
         "username": "ivanna",
-        "password": "ivanna123",
+        "password": "9ivanna",
         "fullname": "Ivanna",
         "role": "Member",
-        "image": "https://via.placeholder.com/100/808080",
-        "gender": "Female"
+        "image": "https://placehold.co/300/png",
+        "gender": "Female",
+        "location": "Jakarta"
     },
     {
         "username": "anita_soen",
-        "password": "anitasoen123",
+        "password": "10anita_soen",
         "fullname": "Anita Soen",
         "role": "Member",
-        "image": "https://via.placeholder.com/100/808080",
-        "gender": "Female"
+        "image": "https://placehold.co/300/png",
+        "gender": "Female",
+        "location": "Jakarta"
     },
     {
         "username": "medeline",
-        "password": "medeline123",
+        "password": "11medeline",
         "fullname": "Medeline",
         "role": "Member",
-        "image": "https://via.placeholder.com/100/808080",
-        "gender": "Female"
+        "image": "https://placehold.co/300/png",
+        "gender": "Female",
+        "location": "Jakarta"
     },
     {
         "username": "lily_e",
-        "password": "lilye123",
+        "password": "12lily_e",
         "fullname": "Lily E",
         "role": "Member",
-        "image": "https://via.placeholder.com/100/808080",
-        "gender": "Female"
+        "image": "https://placehold.co/300/png",
+        "gender": "Female",
+        "location": "Jakarta"
     },
     {
-        "username": "olivia",
-        "password": "olivia123",
-        "fullname": "Olivia",
+        "username": "olivia_umum",
+        "password": "13olivia_umum",
+        "fullname": "Olivia (umum)",
         "role": "Member",
-        "image": "https://via.placeholder.com/100/808080",
-        "gender": "Female"
+        "image": "https://placehold.co/300/png",
+        "gender": "Female",
+        "location": "Jakarta"
     },
     {
-        "username": "nelly",
-        "password": "nelly123",
-        "fullname": "Nelly",
+        "username": "nelly_umum",
+        "password": "14nelly_umum",
+        "fullname": "Nelly (umum)",
         "role": "Member",
-        "image": "https://via.placeholder.com/100/808080",
-        "gender": "Female"
+        "image": "https://placehold.co/300/png",
+        "gender": "Female",
+        "location": "Jakarta"
     },
     {
-        "username": "intan",
-        "password": "intan123",
-        "fullname": "Intan",
+        "username": "intan_umum",
+        "password": "15intan_umum",
+        "fullname": "Intan (umum)",
         "role": "Member",
-        "image": "https://via.placeholder.com/100/808080",
-        "gender": "Female"
+        "image": "https://placehold.co/300/png",
+        "gender": "Female",
+        "location": "Jakarta"
     },
     {
-        "username": "mutiara",
-        "password": "mutiara123",
-        "fullname": "Mutiara",
+        "username": "mutiara_umum",
+        "password": "16mutiara_umum",
+        "fullname": "Mutiara (umum)",
         "role": "Member",
-        "image": "https://via.placeholder.com/100/808080",
-        "gender": "Female"
+        "image": "https://placehold.co/300/png",
+        "gender": "Female",
+        "location": "Jakarta"
     },
     {
-        "username": "octavia",
-        "password": "octavia123",
-        "fullname": "Octavia",
+        "username": "octavia_umum",
+        "password": "17octavia_umum",
+        "fullname": "Octavia (umum)",
         "role": "Member",
-        "image": "https://via.placeholder.com/100/808080",
-        "gender": "Female"
+        "image": "https://placehold.co/300/png",
+        "gender": "Female",
+        "location": "Jakarta"
     },
     {
-        "username": "icha_mariska",
-        "password": "ichamariska123",
-        "fullname": "Icha Mariska",
+        "username": "icha_mariska_umum",
+        "password": "18icha_mariska_umum",
+        "fullname": "Icha Mariska (umum)",
         "role": "Member",
-        "image": "https://via.placeholder.com/100/808080",
-        "gender": "Female"
+        "image": "https://placehold.co/300/png",
+        "gender": "Female",
+        "location": "Jakarta"
     },
     {
         "username": "martha",
-        "password": "martha123",
+        "password": "19martha",
         "fullname": "Martha",
         "role": "Member",
-        "image": "https://via.placeholder.com/100/808080",
-        "gender": "Female"
+        "image": "https://placehold.co/300/png",
+        "gender": "Female",
+        "location": "Jakarta"
     },
     {
         "username": "lusy",
-        "password": "lusy123",
+        "password": "20lusy",
         "fullname": "Lusy",
         "role": "Member",
-        "image": "https://via.placeholder.com/100/808080",
-        "gender": "Female"
+        "image": "https://placehold.co/300/png",
+        "gender": "Female",
+        "location": "Jakarta"
     },
     {
-        "username": "kiana",
-        "password": "kiana123",
-        "fullname": "Kiana",
+        "username": "kiana_umum",
+        "password": "21kiana_umum",
+        "fullname": "Kiana (umum)",
         "role": "Member",
-        "image": "https://via.placeholder.com/100/808080",
-        "gender": "Female"
+        "image": "https://placehold.co/300/png",
+        "gender": "Female",
+        "location": "Jakarta"
     },
     {
         "username": "angela_c",
-        "password": "angelac123",
+        "password": "22angela_c",
         "fullname": "Angela C.",
         "role": "Member",
-        "image": "https://via.placeholder.com/100/808080",
-        "gender": "Female"
+        "image": "https://placehold.co/300/png",
+        "gender": "Female",
+        "location": "Jakarta"
     },
     {
         "username": "aurelia",
-        "password": "aurelia123",
+        "password": "23aurelia",
         "fullname": "Aurelia",
         "role": "Member",
-        "image": "https://via.placeholder.com/100/808080",
-        "gender": "Female"
+        "image": "https://placehold.co/300/png",
+        "gender": "Female",
+        "location": "Jakarta"
     },
     {
         "username": "catherina",
-        "password": "catherina123",
+        "password": "24catherina",
         "fullname": "Catherina",
         "role": "Member",
-        "image": "https://via.placeholder.com/100/808080",
-        "gender": "Female"
+        "image": "https://placehold.co/300/png",
+        "gender": "Female",
+        "location": "Jakarta"
     },
     {
         "username": "indah",
-        "password": "indah123",
+        "password": "25indah",
         "fullname": "Indah",
         "role": "Member",
-        "image": "https://via.placeholder.com/100/808080",
-        "gender": "Female"
+        "image": "https://placehold.co/300/png",
+        "gender": "Female",
+        "location": "Jakarta"
     },
     {
         "username": "sherly_w",
-        "password": "sherlyw123",
+        "password": "26sherly_w",
         "fullname": "Sherly W",
         "role": "Member",
-        "image": "https://via.placeholder.com/100/808080",
-        "gender": "Female"
+        "image": "https://placehold.co/300/png",
+        "gender": "Female",
+        "location": "Jakarta"
     },
     {
         "username": "michelle_w",
-        "password": "michellew123",
+        "password": "27michelle_w",
         "fullname": "Michelle W",
         "role": "Member",
-        "image": "https://via.placeholder.com/100/808080",
-        "gender": "Female"
+        "image": "https://placehold.co/300/png",
+        "gender": "Female",
+        "location": "Jakarta"
     },
     {
         "username": "yolanda",
-        "password": "yolanda123",
+        "password": "28yolanda",
         "fullname": "Yolanda",
         "role": "Member",
-        "image": "https://via.placeholder.com/100/808080",
-        "gender": "Female"
+        "image": "https://placehold.co/300/png",
+        "gender": "Female",
+        "location": "Jakarta"
+    },
+    {
+        "username": "steffi_umum",
+        "password": "29steffi_umum",
+        "fullname": "Steffi (umum)",
+        "role": "Member",
+        "image": "https://placehold.co/300/png",
+        "gender": "Female",
+        "location": "Jakarta"
+    },
+    {
+        "username": "fenny_umum",
+        "password": "30fenny_umum",
+        "fullname": "Fenny (umum)",
+        "role": "Member",
+        "image": "https://placehold.co/300/png",
+        "gender": "Female",
+        "location": "Jakarta"
+    },
+    {
+        "username": "dwi_yugi_umum",
+        "password": "31dwi_yugi_umum",
+        "fullname": "Dwi Yugi (umum)",
+        "role": "Member",
+        "image": "https://placehold.co/300/png",
+        "gender": "Female",
+        "location": "Jakarta"
+    },
+    {
+        "username": "stefany_umum",
+        "password": "32stefany_umum",
+        "fullname": "Stefany (umum)",
+        "role": "Member",
+        "image": "https://placehold.co/300/png",
+        "gender": "Female",
+        "location": "Jakarta"
+    },
+    {
+        "username": "melvina",
+        "password": "33melvina",
+        "fullname": "Melvina",
+        "role": "Member",
+        "image": "https://placehold.co/300/png",
+        "gender": "Female",
+        "location": "Jakarta"
+    },
+    {
+        "username": "margareth_umum",
+        "password": "34margareth_umum",
+        "fullname": "Margareth (umum)",
+        "role": "Member",
+        "image": "https://placehold.co/300/png",
+        "gender": "Female",
+        "location": "Jakarta"
+    },
+    {
+        "username": "fransisca",
+        "password": "35fransisca",
+        "fullname": "Fransisca",
+        "role": "Member",
+        "image": "https://placehold.co/300/png",
+        "gender": "Female",
+        "location": "Jakarta"
     },
     {
         "username": "eddy_tam",
-        "password": "eddytam123",
+        "password": "1eddy_tam",
         "fullname": "Eddy Tam",
         "role": "Member",
-        "image": "https://via.placeholder.com/100/808080",
-        "gender": "Male"
+        "image": "https://placehold.co/300/png",
+        "gender": "Male",
+        "location": "Jakarta"
     },
     {
-        "username": "ronny",
-        "password": "ronny123",
-        "fullname": "Ronny",
+        "username": "ronny_umum",
+        "password": "2ronny_umum",
+        "fullname": "Ronny (umum)",
         "role": "Member",
-        "image": "https://via.placeholder.com/100/808080",
-        "gender": "Male"
+        "image": "https://placehold.co/300/png",
+        "gender": "Male",
+        "location": "Jakarta"
     },
     {
         "username": "george",
-        "password": "george123",
+        "password": "3george",
         "fullname": "George",
         "role": "Member",
-        "image": "https://via.placeholder.com/100/808080",
-        "gender": "Male"
+        "image": "https://placehold.co/300/png",
+        "gender": "Male",
+        "location": "Jakarta"
     },
     {
         "username": "leo",
-        "password": "leo123",
+        "password": "4leo",
         "fullname": "Leo",
         "role": "Member",
-        "image": "https://via.placeholder.com/100/808080",
-        "gender": "Male"
+        "image": "https://placehold.co/300/png",
+        "gender": "Male",
+        "location": "Jakarta"
     },
     {
         "username": "indra",
-        "password": "indra123",
+        "password": "5indra",
         "fullname": "Indra",
         "role": "Member",
-        "image": "https://via.placeholder.com/100/808080",
-        "gender": "Male"
+        "image": "https://placehold.co/300/png",
+        "gender": "Male",
+        "location": "Jakarta"
     },
     {
         "username": "sylvan_adjie",
-        "password": "sylvan123",
+        "password": "6sylvan_adjie",
         "fullname": "Sylvan Adjie",
         "role": "Member",
-        "image": "https://via.placeholder.com/100/808080",
-        "gender": "Male"
+        "image": "https://placehold.co/300/png",
+        "gender": "Male",
+        "location": "Jakarta"
     },
     {
         "username": "iwan_jansen",
-        "password": "iwan123",
+        "password": "7iwan_jansen",
         "fullname": "Iwan Jansen",
         "role": "Member",
-        "image": "https://via.placeholder.com/100/808080",
-        "gender": "Male"
+        "image": "https://placehold.co/300/png",
+        "gender": "Male",
+        "location": "Jakarta"
     },
     {
         "username": "justian",
-        "password": "justian123",
+        "password": "8justian",
         "fullname": "Justian",
         "role": "Member",
-        "image": "https://via.placeholder.com/100/808080",
-        "gender": "Male"
+        "image": "https://placehold.co/300/png",
+        "gender": "Male",
+        "location": "Jakarta"
     },
     {
         "username": "vincent_sg",
-        "password": "vincentsg123",
+        "password": "9vincent_sg",
         "fullname": "Vincent sg",
-        "role": "Admin",
-        "image": "https://via.placeholder.com/100/808080",
-        "gender": "Male"
+        "role": "Member",
+        "image": "https://placehold.co/300/png",
+        "gender": "Male",
+        "location": "Jakarta"
     },
     {
         "username": "victor",
-        "password": "victor123",
+        "password": "10victor",
         "fullname": "Victor",
         "role": "Member",
-        "image": "https://via.placeholder.com/100/808080",
-        "gender": "Male"
+        "image": "https://placehold.co/300/png",
+        "gender": "Male",
+        "location": "Jakarta"
     },
     {
         "username": "michael_tjia",
-        "password": "michaelt123",
+        "password": "11michael_tjia",
         "fullname": "Michael Tjia",
         "role": "Member",
-        "image": "https://via.placeholder.com/100/808080",
-        "gender": "Male"
+        "image": "https://placehold.co/300/png",
+        "gender": "Male",
+        "location": "Jakarta"
     },
     {
         "username": "willyanto",
-        "password": "willyanto123",
+        "password": "12willyanto",
         "fullname": "Willyanto",
         "role": "Member",
-        "image": "https://via.placeholder.com/100/808080",
-        "gender": "Male"
+        "image": "https://placehold.co/300/png",
+        "gender": "Male",
+        "location": "Jakarta"
     },
     {
         "username": "yudie",
-        "password": "yudie123",
+        "password": "13yudie",
         "fullname": "Yudie",
         "role": "Member",
-        "image": "https://via.placeholder.com/100/808080",
-        "gender": "Male"
+        "image": "https://placehold.co/300/png",
+        "gender": "Male",
+        "location": "Jakarta"
     },
     {
         "username": "jonathan",
-        "password": "jonathan123",
+        "password": "14jonathan",
         "fullname": "Jonathan",
         "role": "Member",
-        "image": "https://via.placeholder.com/100/808080",
-        "gender": "Male"
+        "image": "https://placehold.co/300/png",
+        "gender": "Male",
+        "location": "Jakarta"
     },
     {
-        "username": "michael_susanto",
-        "password": "michaels123",
-        "fullname": "Michael Susanto",
+        "username": "michael_sutanto",
+        "password": "15michael_sutanto",
+        "fullname": "Michael Sutanto",
         "role": "Member",
-        "image": "https://via.placeholder.com/100/808080",
-        "gender": "Male"
+        "image": "https://placehold.co/300/png",
+        "gender": "Male",
+        "location": "Jakarta"
     },
     {
         "username": "steven_liu",
-        "password": "stevenliu123",
+        "password": "16steven_liu",
         "fullname": "Steven Liu",
         "role": "Member",
-        "image": "https://via.placeholder.com/100/808080",
-        "gender": "Male"
+        "image": "https://placehold.co/300/png",
+        "gender": "Male",
+        "location": "Jakarta"
     },
     {
         "username": "budiman",
-        "password": "budiman123",
+        "password": "17budiman",
         "fullname": "Budiman",
         "role": "Member",
-        "image": "https://via.placeholder.com/100/808080",
-        "gender": "Male"
+        "image": "https://placehold.co/300/png",
+        "gender": "Male",
+        "location": "Jakarta"
     },
     {
         "username": "stefanus_l",
-        "password": "stefanus123",
+        "password": "18stefanus_l",
         "fullname": "Stefanus L",
         "role": "Member",
-        "image": "https://via.placeholder.com/100/808080",
-        "gender": "Male"
+        "image": "https://placehold.co/300/png",
+        "gender": "Male",
+        "location": "Jakarta"
     },
     {
-        "username": "tjan_fredy",
-        "password": "tjanfredy123",
-        "fullname": "Tjan Fredy",
+        "username": "tjan_fredy_umum",
+        "password": "19tjan_fredy_umum",
+        "fullname": "Tjan Fredy (umum)",
         "role": "Member",
-        "image": "https://via.placeholder.com/100/808080",
-        "gender": "Male"
+        "image": "https://placehold.co/300/png",
+        "gender": "Male",
+        "location": "Jakarta"
     },
     {
         "username": "yonatan_suhartono",
-        "password": "yonatan123",
+        "password": "20yonatan_suhartono",
         "fullname": "Yonatan Suhartono",
         "role": "Member",
-        "image": "https://via.placeholder.com/100/808080",
-        "gender": "Male"
+        "image": "https://placehold.co/300/png",
+        "gender": "Male",
+        "location": "Jakarta"
     },
     {
         "username": "sugiharto_lie",
-        "password": "sugiharto123",
+        "password": "21sugiharto_lie",
         "fullname": "Sugiharto Lie",
         "role": "Member",
-        "image": "https://via.placeholder.com/100/808080",
-        "gender": "Male"
+        "image": "https://placehold.co/300/png",
+        "gender": "Male",
+        "location": "Jakarta"
     },
     {
         "username": "denny_martono",
-        "password": "denny123",
+        "password": "22denny_martono",
         "fullname": "Denny Martono",
         "role": "Member",
-        "image": "https://via.placeholder.com/100/808080",
-        "gender": "Male"
+        "image": "https://placehold.co/300/png",
+        "gender": "Male",
+        "location": "Jakarta"
     },
     {
         "username": "david_chandra",
-        "password": "david123",
+        "password": "23david_chandra",
         "fullname": "David Chandra",
         "role": "Member",
-        "image": "https://via.placeholder.com/100/808080",
-        "gender": "Male"
+        "image": "https://placehold.co/300/png",
+        "gender": "Male",
+        "location": "Jakarta"
     },
     {
         "username": "gunawan_huang",
-        "password": "gunawan123",
+        "password": "24gunawan_huang",
         "fullname": "Gunawan Huang",
         "role": "Member",
-        "image": "https://via.placeholder.com/100/808080",
-        "gender": "Male"
+        "image": "https://placehold.co/300/png",
+        "gender": "Male",
+        "location": "Jakarta"
     },
     {
         "username": "kelby",
-        "password": "kelby123",
+        "password": "25kelby",
         "fullname": "Kelby",
         "role": "Member",
-        "image": "https://via.placeholder.com/100/808080",
-        "gender": "Male"
+        "image": "https://placehold.co/300/png",
+        "gender": "Male",
+        "location": "Jakarta"
     },
     {
         "username": "fernando",
-        "password": "fernando123",
+        "password": "26fernando",
         "fullname": "Fernando",
         "role": "Member",
-        "image": "https://via.placeholder.com/100/808080",
-        "gender": "Male"
+        "image": "https://placehold.co/300/png",
+        "gender": "Male",
+        "location": "Jakarta"
     },
     {
         "username": "jacob",
-        "password": "jacob123",
+        "password": "27jacob",
         "fullname": "Jacob",
         "role": "Member",
-        "image": "https://via.placeholder.com/100/808080",
-        "gender": "Male"
+        "image": "https://placehold.co/300/png",
+        "gender": "Male",
+        "location": "Jakarta"
+    },
+    {
+        "username": "adrian_hadinata_umum",
+        "password": "28adrian_hadinata_umum",
+        "fullname": "Adrian Hadinata (umum)",
+        "role": "Member",
+        "image": "https://placehold.co/300/png",
+        "gender": "Male",
+        "location": "Jakarta"
+    },
+    {
+        "username": "juherianto",
+        "password": "29juherianto",
+        "fullname": "Juherianto",
+        "role": "Member",
+        "image": "https://placehold.co/300/png",
+        "gender": "Male",
+        "location": "Jakarta"
+    },
+    {
+        "username": "jean",
+        "password": "30jean",
+        "fullname": "Jean",
+        "role": "Member",
+        "image": "https://placehold.co/300/png",
+        "gender": "Male",
+        "location": "Jakarta"
+    },
+    {
+        "username": "michael_susanto",
+        "password": "31michael_susanto",
+        "fullname": "Michael Susanto",
+        "role": "Member",
+        "image": "https://placehold.co/300/png",
+        "gender": "Male",
+        "location": "Jakarta"
     }
 ]
