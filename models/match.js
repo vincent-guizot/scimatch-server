@@ -1,5 +1,6 @@
 "use strict";
 const { Model } = require("sequelize");
+const { randomBytes } = require("crypto");
 
 module.exports = (sequelize, DataTypes) => {
   class Match extends Model {
@@ -12,17 +13,17 @@ module.exports = (sequelize, DataTypes) => {
   Match.init(
     {
       id: {
-        type: DataTypes.UUID,
+        type: DataTypes.STRING(12),
         primaryKey: true,
         allowNull: false,
-        defaultValue: DataTypes.UUIDV4,
+        defaultValue: () => randomBytes(6).toString("hex"),
       },
       User1Id: {
-        type: DataTypes.UUID,
+        type: DataTypes.STRING(12),
         allowNull: false,
       },
       User2Id: {
-        type: DataTypes.UUID,
+        type: DataTypes.STRING(12),
         allowNull: false,
       },
     },

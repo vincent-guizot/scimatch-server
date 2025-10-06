@@ -1,22 +1,24 @@
 "use strict";
+const { randomBytes } = require("crypto");
+
 /** @type {import('sequelize-cli').Migration} */
 module.exports = {
   async up(queryInterface, Sequelize) {
     await queryInterface.createTable("Matches", {
       id: {
-        type: Sequelize.UUID,
+        type: Sequelize.STRING(12),
         primaryKey: true,
         allowNull: false,
-        defaultValue: Sequelize.UUIDV4,
+        defaultValue: () => randomBytes(6).toString("hex"),
       },
       User1Id: {
-        type: Sequelize.UUID,
+        type: Sequelize.STRING(12),
         allowNull: false,
         references: { model: "Users", key: "id" },
         onDelete: "CASCADE",
       },
       User2Id: {
-        type: Sequelize.UUID,
+        type: Sequelize.STRING(12),
         allowNull: false,
         references: { model: "Users", key: "id" },
         onDelete: "CASCADE",
@@ -33,7 +35,8 @@ module.exports = {
       },
     });
   },
-  async down(queryInterface, Sequelize) {
+
+  async down(queryInterface) {
     await queryInterface.dropTable("Matches");
   },
 };

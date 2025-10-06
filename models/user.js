@@ -1,25 +1,19 @@
 "use strict";
 const { Model } = require("sequelize");
+const { randomBytes } = require("crypto");
 
 module.exports = (sequelize, DataTypes) => {
   class User extends Model {
     static associate(models) {
-      // Likes given by this user
       User.hasMany(models.Like, { foreignKey: "UserId", as: "likesGiven" });
-
-      // Likes received by this user
       User.hasMany(models.Like, {
         foreignKey: "LikedUserId",
         as: "likesReceived",
       });
-
-      // Matches where this user is user1
       User.hasMany(models.Match, {
         foreignKey: "User1Id",
         as: "matchesAsUser1",
       });
-
-      // Matches where this user is user2
       User.hasMany(models.Match, {
         foreignKey: "User2Id",
         as: "matchesAsUser2",
@@ -30,30 +24,39 @@ module.exports = (sequelize, DataTypes) => {
   User.init(
     {
       id: {
-        type: DataTypes.UUID,
+        type: DataTypes.STRING(12),
         primaryKey: true,
         allowNull: false,
-        defaultValue: DataTypes.UUIDV4,
+        defaultValue: () => randomBytes(6).toString("hex"), // 12-char ID
       },
       username: {
         type: DataTypes.STRING,
         allowNull: false,
         unique: true,
       },
-      password: DataTypes.STRING,
+      password: {
+        type: DataTypes.STRING,
+        allowNull: false,
+      },
+      fullname: {
+        type: DataTypes.STRING,
+        allowNull: false,
+      },
+      address: DataTypes.STRING,
+      age: DataTypes.INTEGER,
+      gender: DataTypes.STRING,
+      religion: DataTypes.STRING,
       image: DataTypes.STRING,
       role: {
         type: DataTypes.ENUM("Admin", "Member", "Developer"),
         allowNull: false,
         defaultValue: "Member",
       },
-      location: DataTypes.STRING,
-      fullname: DataTypes.STRING,
-      gender: DataTypes.STRING,
     },
     {
       sequelize,
       modelName: "User",
+      tableName: "Users",
     }
   );
 
