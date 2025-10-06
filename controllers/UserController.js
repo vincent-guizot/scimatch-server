@@ -51,8 +51,6 @@ class UserController {
       const newUser = await User.create({
         id,
         username,
-        image: null,
-        location: null,
         ...rest,
       });
 
