@@ -1,7 +1,7 @@
 // controllers/UserController.js
 const { User } = require("../models");
 
-const { v4: uuidv4 } = require("uuid");
+const crypto = require("crypto");
 
 class UserController {
   static async getAll(req, res) {
@@ -44,18 +44,22 @@ class UserController {
       if (existingUser) {
         return res.status(409).json({ message: "Username already exists" });
       }
-      const id = uuidv4();
-      const newUser = await User.create({
-        username,
-        id,
-        image: null,
-        location: null,
-        ...rest,
-      });
-      res.status(201).json({
-        message: "User created successfully",
-        data: newUser,
-      });
+
+      // ✅ Generate short 12-char hex ID (same as in migration)
+      const id = crypto.randomBytes(6).toString("hex");
+      console.log(id);
+      // const newUser = await User.create({
+      //   id,
+      //   username,
+      //   image: null,
+      //   location: null,
+      //   ...rest,
+      // });
+
+      // res.status(201).json({
+      //   message: "User created successfully",
+      //   data: newUser,
+      // });
     } catch (err) {
       res.status(500).json({ message: "Server error", error: err.message });
     }
